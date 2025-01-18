@@ -12,17 +12,17 @@
     <div class="outer">
         <div class="centered">
             <input id="FirstNumber" type="text" size=20px placeholder="Ваше первое число">
-            <select class="Selector" id="Selection">
-                <option id="Plus">+</option>
-                <option id="Minus">-</option>
-                <option id="Multiply">*</option>
-                <option id="division">/</option>
+            <select class="Selector" id="Selector">
+                <option value="Plus">+</option>
+                <option value="Minus">-</option>
+                <option value="Multiply">*</option>
+                <option value="Division">/</option>
             </select>
             <input id="SecondNumber" type="text" size=20px placeholder="Ваше второе число">
         </div>
         <div class="centered">
             <button type="button" id="calc">Посчитать</button>
-            <input id="result" type="text" placeholder="Результат вычислений" disabled>
+            <input id="result" type="text" placeholder="Результат вычислений" readonly>
         </div>
     </div>
     <script src="script.js"></script>
