@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="outer">
+        <div class="centered">
+            <input id="FirstNumber" type="text" size=20px placeholder="Ваше первое число">
+            <select class="Selector" id="Selection">
+                <option id="FirstOption">+</option>
+                <option id="SecondOption">-</option>
+                <option id="Thirdption">*</option>
+                <option id="FourthOption">/</option>
+            </select>
+            <input id="SecondNumber" type="text" size=20px placeholder="Ваше второе число">
+        </div>
+        <div class="centered">
+            <button type="button" id="calc">Посчитать</button>
+            <input id="result" type="text" placeholder="Результат вычислений" disabled>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
