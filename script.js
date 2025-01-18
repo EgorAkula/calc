@@ -2,7 +2,9 @@ let button = document.getElementById("calc");
 let input1 = document.getElementById("FirstNumber");
 let input2 = document.getElementById("SecondNumber");
 let output = document.getElementById("result");
+
 let selector = document.getElementById("Selector");
+
 let option1 = document.getElementById("Plus");
 let option2 = document.getElementById("Minus");
 let option3 = document.getElementById("Multiply");
